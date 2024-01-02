@@ -70,4 +70,19 @@
   .button {
     font-size: 14px;
   }
+  .tag-container {
+    margin-left: 15px;
+  }
+  .button {
+    margin-right: 15px;
+  }
+  .tag-container {
+    gap: 10px;
+  }
+  .tags span {
+    padding: 5px 10px;
+  }
+  .tag-container p {
+    min-width: 50px;
+  }
 }
