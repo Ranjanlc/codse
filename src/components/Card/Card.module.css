@@ -1,0 +1,82 @@
+.card {
+  height: 150px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #f1eeee;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  padding: 0 20px;
+}
+.card svg {
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+.dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #c5c1c1;
+  /* opacity: 0; */
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+  display: none;
+
+  padding: 20px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.dropdown a,
+.dropdown button {
+  border-radius: 8px;
+  background: #35bfd8;
+  display: flex;
+  width: 100%;
+  max-width: 109px;
+  padding: 14px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Bai Jamjuree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+.dropdown .delete {
+  background-color: red;
+}
+
+.dropdown a {
+  background-color: #3b67ff;
+}
+
+.dropdown.active {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (max-width: 450px) {
+  .card,
+  .button {
+    font-size: 14px;
+  }
+}

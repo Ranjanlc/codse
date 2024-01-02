@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputs label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.inputs input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  padding: 10px 5px 5px;
+  background-color: transparent;
+  font-size: 17px;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.add {
+  align-self: center;
+  width: 100px;
+  height: 50px;
+}
+.tag-container {
+  display: flex;
+  align-items: center;
+}
+.tag-container p {
+  min-width: 120px;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 20px 0;
+}
+.tags {
+  display: flex;
+  color: #000;
+  font-weight: 600;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tags span {
+  border-radius: 20px;
+  padding: 10px 15px 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
